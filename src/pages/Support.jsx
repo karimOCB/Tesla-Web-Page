@@ -3,6 +3,8 @@ import { SupportNav, TrendingTopics, SupportFooter } from "../components/index";
 
 const Support = () => {
 
+  document.body.style.overflow = "auto";
+
   return (
     <>
       <SupportNav />
