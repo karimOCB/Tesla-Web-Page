@@ -7,11 +7,11 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
-    path: "/Tesla-Web-Page/Home",
+    path: "/Tesla-Web-Page/",
     element: <Home />,
   },
   {
-    path: "/Tesla-Web-Page/support",
+    path: "/support",
     element: <Support />,
   },
 ]);
